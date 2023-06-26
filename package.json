@@ -1,20 +1,24 @@
 {
   "name": "countdown_calendar",
   "version": "1.0.0",
-  "description": "",
-  "main": "script.js",
+  "main": "index.js",
+  "source": "src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel --open",
+    "build": "parcel build --public-url=/dist/"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Mariia-Torkaienko/Countdown_calendar.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mariia-Torkaienko",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Mariia-Torkaienko/Countdown_calendar/issues"
   },
-  "homepage": "https://github.com/Mariia-Torkaienko/Countdown_calendar#readme"
+  "homepage": "https://github.com/Mariia-Torkaienko/Countdown_calendar#readme",
+  "devDependencies": {
+    "parcel": "latest"
+  }
 }
