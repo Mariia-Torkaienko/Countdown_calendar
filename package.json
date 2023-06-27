@@ -8,8 +8,10 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "parcel": "^2.9.3",
-    "gh-pages": "2.0.0"
+    "gh-pages": "^2.0.0",
+    "parcel": "^2.9.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "webpack": "^5.88.0"
+  }
 }
