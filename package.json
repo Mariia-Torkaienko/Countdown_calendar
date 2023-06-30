@@ -5,10 +5,10 @@
     "start": "parcel --open",
     "build": "parcel build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d src"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.0",
+    "gh-pages": "^2.2.0",
     "parcel": "^2.9.3"
   },
   "dependencies": {
